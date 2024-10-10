@@ -12,10 +12,10 @@ import org.testng.Assert;
 
 public class HomePage extends BasePage {
 	
-	By searchBox = By.xpath("//input[@data-testid='search-input']");
-	By japanSel =  By.xpath("//ul[@class='countries-list position-absolute']//li[2]");
-	By acceptBtn =  By.xpath("//button[text()='ACCEPT']");
-	By dontallowBtn =  By.xpath("//button[contains(text(),'DON')]");
+	private  By searchBox = By.xpath("//input[@data-testid='search-input']");
+	private  By japanSel =  By.xpath("//ul[@class='countries-list position-absolute']//li[2]");
+	private  By acceptBtn =  By.xpath("//button[text()='ACCEPT']");
+	private  By dontallowBtn =  By.xpath("//button[contains(text(),'DON')]");
 	
 	public HomePage(WebDriver driver)
 	{

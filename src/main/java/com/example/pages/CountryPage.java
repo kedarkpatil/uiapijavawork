@@ -12,11 +12,11 @@ import org.testng.Assert;
 
 public class CountryPage extends BasePage{
 	
-	By title= By.cssSelector("div.store-countries-and-regions-list > div > div > div > div:nth-child(1) > a > div > div.sim-item-header  > div  > p");
-	By coverage= By.cssSelector("div.store-countries-and-regions-list > div > div > div > div:nth-child(1) > a > div > div.sim-item-info > ul > li:nth-child(1) > div > p.value");
-	By data=By.cssSelector("div.store-countries-and-regions-list > div > div > div > div:nth-child(1) > a > div > div.sim-item-info > ul > li:nth-child(2) > div > p.value");
-	By validity= By.cssSelector("div.store-countries-and-regions-list > div > div > div > div:nth-child(1) > a > div > div.sim-item-info > ul > li:nth-child(3) > div > p.value");
-	By price=By.cssSelector("div.store-countries-and-regions-list > div > div > div > div:nth-child(1) > a > div > div.sim-item-info > ul > li:nth-child(4) > div > p.value");
+	private  By title= By.cssSelector("div.store-countries-and-regions-list > div > div > div > div:nth-child(1) > a > div > div.sim-item-header  > div  > p");
+	private  By coverage= By.cssSelector("div.store-countries-and-regions-list > div > div > div > div:nth-child(1) > a > div > div.sim-item-info > ul > li:nth-child(1) > div > p.value");
+	private  By data=By.cssSelector("div.store-countries-and-regions-list > div > div > div > div:nth-child(1) > a > div > div.sim-item-info > ul > li:nth-child(2) > div > p.value");
+	private  By validity= By.cssSelector("div.store-countries-and-regions-list > div > div > div > div:nth-child(1) > a > div > div.sim-item-info > ul > li:nth-child(3) > div > p.value");
+	private  By price=By.cssSelector("div.store-countries-and-regions-list > div > div > div > div:nth-child(1) > a > div > div.sim-item-info > ul > li:nth-child(4) > div > p.value");
 	
 	
 	
